@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7af97089-a65f-431f-985e-770887e019b5" name="Changes" comment="update stock table" />
+    <list default="true" id="7af97089-a65f-431f-985e-770887e019b5" name="Changes" comment="stock table update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,8 +14,8 @@
   </component>
   <component name="ChangesViewManager" show_ignored="true">
     <option name="groupingKeys">
-      <option value="module" />
       <option value="directory" />
+      <option value="module" />
     </option>
   </component>
   <component name="CodeInsightWorkspaceSettings">
@@ -63,6 +65,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -91,7 +94,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="" name="Default Changelist" comment="" />
+      <changelist id="7af97089-a65f-431f-985e-770887e019b5" name="Changes" comment="stock table update" />
       <created>1672057460001</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -200,7 +203,8 @@
       <workItem from="1678380550493" duration="36000" />
       <workItem from="1678543265366" duration="645000" />
       <workItem from="1678734005129" duration="1223000" />
-      <workItem from="1678735248655" duration="1653000" />
+      <workItem from="1678735248655" duration="2225000" />
+      <workItem from="1678739243289" duration="1049000" />
     </task>
     <task id="LOCAL-00001" summary="stock table update">
       <created>1678734147261</created>
@@ -230,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678738004371</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="stock table update">
+      <created>1678738501277</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678738501277</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,8 +259,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stock table update" />
     <MESSAGE value="update stock table" />
-    <option name="LAST_COMMIT_MESSAGE" value="update stock table" />
+    <MESSAGE value="stock table update" />
+    <option name="LAST_COMMIT_MESSAGE" value="stock table update" />
   </component>
 </project>
