@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootMain" prefHeight="786.0" prefWidth="1454.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.mainViewFormController">
+   <children>
+      <TextField fx:id="txtProduct" layoutX="425.0" layoutY="54.0" prefHeight="43.0" prefWidth="177.0" promptText="Product Name" />
+      <TextField fx:id="txtPrice" layoutX="122.0" layoutY="107.0" prefHeight="43.0" prefWidth="479.0" promptText=" Product Price" />
+      <TextField fx:id="txtRate" layoutX="122.0" layoutY="167.0" prefHeight="43.0" prefWidth="479.0" promptText="Enter Rate" />
+      <Label layoutX="11.0" layoutY="54.0" prefHeight="43.0" prefWidth="110.0" text="Product">
+         <font>
+            <Font size="27.0" />
+         </font></Label>
+      <Label layoutX="11.0" layoutY="107.0" prefHeight="43.0" prefWidth="110.0" text="Price">
+         <font>
+            <Font size="27.0" />
+         </font></Label>
+      <Label layoutX="13.0" layoutY="167.0" prefHeight="43.0" prefWidth="110.0" text="Rate">
+         <font>
+            <Font size="27.0" />
+         </font></Label>
+      <Label layoutX="11.0" layoutY="292.0" prefHeight="43.0" prefWidth="110.0" text="Total">
+         <font>
+            <Font size="27.0" />
+         </font></Label>
+      <TableView fx:id="tblItems" layoutX="612.0" layoutY="54.0" prefHeight="711.0" prefWidth="695.0">
+        <columns>
+          <TableColumn prefWidth="176.0" text="PRODUCT" />
+            <TableColumn prefWidth="165.0" text="PRICE" />
+            <TableColumn prefWidth="169.0" text="RATE" />
+            <TableColumn prefWidth="184.0" text="TOTAL" />
+        </columns>
+      </TableView>
+      <TextArea fx:id="txtAraBill" layoutX="11.0" layoutY="457.0" prefHeight="327.0" prefWidth="591.0" />
+      <Button fx:id="btnAddOnAction" layoutX="478.0" layoutY="220.0" mnemonicParsing="false" onAction="#detailAddOnAction" prefHeight="43.0" prefWidth="124.0" style="-fx-background-color: green;" text="Add" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnPrintOnAction" layoutX="11.0" layoutY="401.0" mnemonicParsing="false" onAction="#btnPrintOnAction" prefHeight="43.0" prefWidth="591.0" style="-fx-background-color: green;" text="Print" textFill="WHITE" />
+      <Label layoutX="612.0" layoutY="1.0" prefHeight="52.0" prefWidth="124.0" text="Grand Total">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblGrandTotal" layoutX="766.0" layoutY="1.0" prefHeight="52.0" prefWidth="432.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Label fx:id="lblTotal" layoutX="125.0" layoutY="292.0" prefHeight="43.0" prefWidth="479.0" />
+      <TextField fx:id="txtPaidAmount" layoutX="125.0" layoutY="349.0" prefHeight="43.0" prefWidth="479.0" promptText="Enter Paid Amount" />
+      <Label layoutX="3.0" layoutY="349.0" prefHeight="43.0" prefWidth="110.0" text="Paid Amount">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Button layoutX="14.0" layoutY="220.0" mnemonicParsing="false" onAction="#btnDeleteOnAction" prefHeight="44.0" prefWidth="124.0" style="-fx-background-color: red;" text="Delete" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="149.0" layoutY="220.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="44.0" prefWidth="124.0" style="-fx-background-color: orange;" text="Update" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="491.0" layoutY="5.0" mnemonicParsing="false" onAction="#btnViewStocksOnAction" prefHeight="43.0" prefWidth="110.0" style="-fx-background-color: #9b59b6;" text="View Stocks" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="11.0" layoutY="7.0" prefHeight="31.0" prefWidth="89.0" text="Sale ID">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSaleID" layoutX="121.0" layoutY="6.0" prefHeight="31.0" prefWidth="285.0" />
+      <Button fx:id="btnFinishOnAction" layoutX="364.0" layoutY="220.0" mnemonicParsing="false" onAction="#btnFinishOnAction" prefHeight="45.0" prefWidth="100.0" style="-fx-background-color: #3498db;" text="Finish" textFill="#fff9f9">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ComboBox fx:id="cbProduct" layoutX="123.0" layoutY="54.0" prefHeight="43.0" prefWidth="297.0" />
+   </children>
+</AnchorPane>
