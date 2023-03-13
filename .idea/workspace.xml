@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7af97089-a65f-431f-985e-770887e019b5" name="Changes" comment="stock table update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7af97089-a65f-431f-985e-770887e019b5" name="Changes" comment="adding file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,7 +202,7 @@
       <workItem from="1678543265366" duration="645000" />
       <workItem from="1678734005129" duration="1223000" />
       <workItem from="1678735248655" duration="2225000" />
-      <workItem from="1678739243289" duration="1049000" />
+      <workItem from="1678739243289" duration="1450000" />
     </task>
     <task id="LOCAL-00001" summary="stock table update">
       <created>1678734147261</created>
@@ -241,7 +239,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678738501277</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="stock table update">
+      <created>1678740323693</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678740323693</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding file">
+      <created>1678740452278</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678740452278</updated>
+    </task>
+    <task id="LOCAL-00008" summary="adding file">
+      <created>1678740477015</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678740477015</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,12 +274,23 @@
             <State />
           </value>
         </entry>
+        <entry key="fc22f8cb-2fdc-46db-bd20-c616956cb292">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="fc22f8cb-2fdc-46db-bd20-c616956cb292" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update stock table" />
     <MESSAGE value="stock table update" />
-    <option name="LAST_COMMIT_MESSAGE" value="stock table update" />
+    <MESSAGE value="adding file" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding file" />
   </component>
 </project>
